@@ -62,10 +62,10 @@ section header {
 
 #weekly {
 
-    &>div {
-        grid-tamplete-columns: repeat(4, 292px);
+    .more-readed {
+        display: grid; grid-template-columns: repeat(4, 292px);
+        gap: 16px;
     }
-
 
     img {
         height: 160px;
